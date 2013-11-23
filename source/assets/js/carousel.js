@@ -39,8 +39,6 @@
 
     this.getActiveIndex();
 
-    this.init();
-
   }
 
   Carousel.DEFAULTS = {
@@ -49,9 +47,6 @@
     wrap: true,
   }
 
-  Carousel.prototype.init = function() {
-    this.$items.not(this.$active).css('top', '100%');
-  }
 
   Carousel.prototype.cycle =  function (e) {
     console.log('shall cycle');
@@ -97,67 +92,75 @@
      console.log('prev');
   }
 
-  Carousel.prototype.slide = function (type, nextItem) {
+  Carousel.prototype.slide = function (type, next) {
 
-    // aktiv nach links fahren
-    if(type == 'next') {
+    var $active        = this.$element.find('.item active'),
+        $next          = next || $active[type](),
+        isCycling      = this.interval,
+        animateActive  = type == 'next' ? 'center-to-left'  : 'center-to-right',
+        animateNext    = type == 'next' ? 'right-to-center' : 'left-to-center',
+        direction      = type == 'next' ? 'left'            :  'right',
+        fallback       = type == 'next' ?  'first'          : 'last',
+        that           = this;
 
-      nextItem.css({
-        'top': '0',
-        'left': '100%'
-      });
-
-      nextItem.one('webkitTransitionEnd', $.proxy(this.activateItem,this));
-
-      // animate
-      nextItem.css({
-        '-webkit-transform': 'translate(-100%,0)'
-      });
-
-      this.$active.css({
-        '-webkit-transform': 'translate(-100%,0)',
-      }).removeClass('active');
-
-    }else if(type == 'prev') {
-
-      nextItem.css({
-        'top': '0',
-        'left': '-100%'
-      });
-
-      nextItem.one('webkitTransitionEnd', $.proxy(this.activateItem,this));
-
-      nextItem.css({
-        '-webkit-transform': 'translate(100%,0)'
-      });
-
-      this.$active.css({
-        '-webkit-transform': 'translate(100%,0)',
-      }).removeClass('active');
-
+    if (!$next.length) {
+      if (!this.options.wrap) return
+      $next = this.$element.find('.item')[fallback]()
     }
+
+    this.sliding = true;
+
+    isCycling && this.pause(); // versteh ich noch nicht?
+
+    //console.log(isCycling && this.pause());
+
+    var e = $.Event('slide.bs.carousel', { relatedTarget: $next[0], direction: direction })
+
+    if ($next.hasClass('active')) return;
+
+    if (this.$indicators.length) {
+      this.$indicators.find('.active').removeClass('active')
+      this.$element.one('slid', function () {
+        var $nextIndicator = $(that.$indicators.children()[that.getActiveIndex()]);
+        $nextIndicator && $nextIndicator.addClass('active');
+      })
+    }
+
+    // ggf $.support mit modernizr ersetzen
+    if ($.support.transition && this.$element.hasClass('slide')) {
+      this.$element.trigger(e)
+      if (e.isDefaultPrevented()) return
+
+      $next.addClass(type);
+      this.$active.addClass(animateActive);
+      $next.addClass(animateNext)
+
+      this.$active.one('webkitAnimationEnd', function(){
+        that.$active.attr('class','item');
+        $next.attr('class', 'item').addClass('active');
+        that.sliding = false;
+        that.$element.trigger('slid');
+      });
+
+
+    } else {
+      this.$element.trigger(e)
+      if (e.isDefaultPrevented()) return
+      $active.removeClass('active')
+      $next.addClass('active')
+      this.sliding = false
+      this.$element.trigger('slid')
+    }
+
+    isCycling && this.cycle()
+
+    return this
+
+
 
 
   }
 
-  Carousel.prototype.activateItem = function(evt) {
-
-    var $item = $(evt.target).addClass('active');
-
-    this.$active.add($item).addClass('no-transition'),
-
-    this.$active.css({
-      'left': '0',
-      'top': '100%',
-      '-webkit-transform': 'translate(0,0)'
-    });
-
-    $item.css({
-      'left': '0',
-      '-webkit-transform': 'translate(0,0)'
-    });
-
-  };
 
 
   // CAROUSEL PLUGIN DEFINITION

@@ -16,6 +16,9 @@
 
 .carousel-inner {
 
+  @slideSpeed: .4s;
+  @easing: ease-in-out;
+
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -25,9 +28,10 @@
     > .item {
       display: block;
       position: absolute;
+        top: 100%;
       width: 100%;
 
-      .transition(.6s ease-in-out -webkit-transform);
+      //.transition(.6s ease-in-out -webkit-transform);
 
       &:nth-child(1) {
         background: red;
@@ -37,12 +41,85 @@
         background: green;
       }
 
-      &.no-transition {
-        .transition(0s none);
+      &.prev, &.active, &.next  {
+        top: 0;
+      }
+
+      &.prev {
+        -webkit-transform: translateX(-100%);
+      }
+
+      &.next {
+        -webkit-transform: translateX(100%);
       }
 
       &.active {
-        visibility: visible;
+        -webkit-transform: translateX(0);
+      }
+
+      &.right-to-center{
+
+        -webkit-animation: ani-right-to-center @slideSpeed @easing;
+
+        @-webkit-keyframes ani-right-to-center /* Safari and Chrome */
+        {
+          0% {
+            -webkit-transform: translateX(100%);
+          }
+          100% {
+            -webkit-transform: translate(0);
+          }
+        }
+
+      }
+
+      &.center-to-right {
+
+        -webkit-animation: ani-center-to-right @slideSpeed @easing;
+
+        @-webkit-keyframes ani-center-to-right /* Safari and Chrome */
+        {
+          0% {
+            -webkit-transform: translateX(0);
+          }
+          100% {
+            -webkit-transform: translateX(100%);
+          }
+        }
+
+      }
+
+
+      &.left-to-center{
+
+        -webkit-animation: ani-left-to-center @slideSpeed @easing;
+
+        @-webkit-keyframes ani-left-to-center /* Safari and Chrome */
+        {
+          0% {
+            -webkit-transform: translateX(-100%);
+          }
+          100% {
+            -webkit-transform: translate(0);
+          }
+        }
+
+      }
+
+      &.center-to-left {
+
+        -webkit-animation: ani-center-to-left @slideSpeed @easing;
+
+        @-webkit-keyframes ani-center-to-left /* Safari and Chrome */
+        {
+          0% {
+            -webkit-transform: translateX(0);
+          }
+          100% {
+            -webkit-transform: translateX(-100%);
+          }
+        }
+
       }
 
     }
