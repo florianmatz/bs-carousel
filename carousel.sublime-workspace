@@ -1,0 +1,2031 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"next",
+				"nextItem"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"no",
+				"no-transition"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"get",
+				"getActiveIndex"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"paddin-",
+				"padding-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"nav",
+				"nav-link"
+			],
+			[
+				"ha",
+				"handleLink"
+			],
+			[
+				"sle",
+				"select"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"is",
+				"isSelect"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"match",
+				"matchMedia"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"feed",
+				"feedbackName"
+			],
+			[
+				"fe",
+				"feedbackName"
+			],
+			[
+				"vali",
+				"validateEmail"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"win",
+				"winHeight"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"curr",
+				"currentFloor"
+			],
+			[
+				"find",
+				"findRoom"
+			],
+			[
+				"new",
+				"newFloor"
+			],
+			[
+				"load",
+				"loadRooms"
+			],
+			[
+				"q",
+				"checkQuery"
+			],
+			[
+				"hash",
+				"hashquery"
+			],
+			[
+				"che",
+				"checkHash"
+			],
+			[
+				"to",
+				"toggleMarkers"
+			],
+			[
+				"opti",
+				"option"
+			],
+			[
+				"dis",
+				"disableOption"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"marker",
+				"markerSwitch"
+			],
+			[
+				"tog",
+				"toggleMarkerSwitch"
+			],
+			[
+				"mark",
+				"markerSwitch"
+			],
+			[
+				"show",
+				"show-marker"
+			],
+			[
+				"hide",
+				"hideMarker"
+			],
+			[
+				"showM",
+				"showMarker"
+			],
+			[
+				"hid",
+				"hideAllMarkers"
+			],
+			[
+				"too",
+				"toggleErrorMsg"
+			],
+			[
+				"ch",
+				"changeFloor"
+			],
+			[
+				"chang",
+				"changeFloor"
+			],
+			[
+				"floo",
+				"floorChar"
+			],
+			[
+				"all",
+				"allowedFloors"
+			],
+			[
+				"chec",
+				"checkQuery"
+			],
+			[
+				"chan",
+				"changeFloor"
+			],
+			[
+				"setM",
+				"setMarkerIconSize"
+			],
+			[
+				"check",
+				"checkMarkerVisibility"
+			],
+			[
+				"has",
+				"hasAllMarkersVisible"
+			],
+			[
+				"cur",
+				"currentFloor"
+			],
+			[
+				"cen",
+				"centerCoords"
+			],
+			[
+				"map",
+				"mapOptions"
+			],
+			[
+				"rese",
+				"resetFlags"
+			],
+			[
+				"create",
+				"createMarker"
+			],
+			[
+				"crea",
+				"createMarker"
+			],
+			[
+				"Roo",
+				"RoomModel"
+			],
+			[
+				"rez",
+				"resizeMap"
+			],
+			[
+				"ini",
+				"initialized"
+			],
+			[
+				"searc",
+				"search"
+			],
+			[
+				"pre",
+				"prefilter"
+			],
+			[
+				"text",
+				"textonly"
+			],
+			[
+				"data",
+				"dataHandler"
+			],
+			[
+				"preve",
+				"preventDefault"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"fi",
+				"filter"
+			],
+			[
+				"clear",
+				"clearFilter"
+			],
+			[
+				"m",
+				"method	@method"
+			],
+			[
+				"cach",
+				"cachedData"
+			],
+			[
+				"fil",
+				"fillCollection"
+			],
+			[
+				"ins",
+				"insterMap"
+			],
+			[
+				"getD",
+				"getDay"
+			],
+			[
+				"curre",
+				"currentDate"
+			],
+			[
+				"week",
+				"weekdays"
+			],
+			[
+				"holida",
+				"holiday"
+			],
+			[
+				"we",
+				"weekday"
+			],
+			[
+				"holi",
+				"holiday"
+			],
+			[
+				"wee",
+				"weekdays"
+			],
+			[
+				"lec",
+				"lectureView"
+			],
+			[
+				"timeslo",
+				"timeslotView"
+			],
+			[
+				"lecture",
+				"lectureViews"
+			],
+			[
+				"par",
+				"paramObject"
+			],
+			[
+				"view",
+				"views"
+			],
+			[
+				"creat",
+				"createInstance"
+			],
+			[
+				"Camp",
+				"CampusView"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"opt",
+				"optimizeCss"
+			],
+			[
+				"Se",
+				"SettingsView"
+			],
+			[
+				"Campu",
+				"CampusDetailView"
+			],
+			[
+				"CAmp",
+				"CampusDetailView"
+			],
+			[
+				"schedul",
+				"scheduleChanges"
+			],
+			[
+				"set",
+				"setScheduleChanges"
+			],
+			[
+				"timel",
+				"timeslotView"
+			],
+			[
+				"schedu",
+				"scheduleChanges"
+			],
+			[
+				"lunch",
+				"lunchTemplate"
+			],
+			[
+				"addi",
+				"additionalTemplate"
+			],
+			[
+				"le",
+				"lectureViews"
+			],
+			[
+				"timesl",
+				"timeslotView"
+			],
+			[
+				"tim",
+				"timeslotViews"
+			],
+			[
+				"app",
+				"appendViews"
+			],
+			[
+				"day",
+				"dayView"
+			],
+			[
+				"timeslotColle",
+				"timeslotCollections"
+			],
+			[
+				"sched",
+				"schedule"
+			],
+			[
+				"Lecture",
+				"LectureModel"
+			],
+			[
+				"ho",
+				"holidayHandler"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"quer",
+				"queriedMarker"
+			],
+			[
+				"que",
+				"queriedMarker"
+			],
+			[
+				"setMar",
+				"setMarker"
+			],
+			[
+				"first",
+				"firstLoad"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"task",
+				"task-list"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/index.html",
+			"settings":
+			{
+				"buffer_size": 3215,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/assets/js/carousel.js",
+			"settings":
+			{
+				"buffer_size": 5650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/assets/less/carousel.less",
+			"settings":
+			{
+				"buffer_size": 5137,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/grunt.sublime-build",
+	"command_palette":
+	{
+		"height": 185.0,
+		"selected_items":
+		[
+			[
+				"wat",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"wath",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"wwat",
+				"Word Wrap: Toggle"
+			],
+			[
+				"w",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"wa",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"les",
+				"Build: Grunt LESS Task"
+			],
+			[
+				"less",
+				"Build: Grunt LESS Task"
+			],
+			[
+				"watch",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"watc",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"style",
+				"Set Syntax: LESS"
+			],
+			[
+				"wac",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"wt",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"router",
+				"Snippet: Backbone Router"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"ipa",
+				"Package Control: Install Package"
+			],
+			[
+				"gru",
+				"Build: Grunt WATCH Task"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets/js/save",
+		"/C/Users/Florian Speckmaier/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/bower.cc",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/index.html",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/build/package.json",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets/less/style.less",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/build/Gruntfile.js",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets/less/bootstrap.less",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets/less/carousel.less",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets/js/carousel.js",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets/css/style.css",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/bootstrap-carousel-new/source/assets",
+		"/C/Users/Florian Speckmaier/Documents/programming/webprojects/hdmapp/hdmapp.sublime-project",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/css/index_styles.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_5_off_canvas/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_5_off_canvas/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/index.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_2_grids_breakpoints/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/index_styles.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_4_2_1_meeting_the_middle/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_4_2_2_svg_icon_font",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_4_2_1_meeting_the_middle/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_4_1_3_prozentuale_groessendefinition/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_5_off_canvas/demo.js",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_2_grids_breakpoints/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_4_toggle_menu/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_3_footer_anchor/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_4_toggle_menu/demo.js",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_4_toggle_menu/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/off_canvas/demo.js",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_3_footer_anchor/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/css/styles.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_2_select_menu/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_2_select_menu/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_2_select_menu/demo.js",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_1_top_navigation/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigationskonzepte/4_3_2_1_top_navigation/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_3_2_navigation/4_3_2_1_top_navigation/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_3_responsive_typography/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_3_responsive_typography/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/3_3_1_geolocation/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_1_media_queries/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/off_canvas/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/off_canvas/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/column_drop/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/mostly_fluid/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/mostly_fluid/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/column_drop/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/mostly_fluid/mostly_fluid.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/mostly_fluid.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_2_2_1_layout_pattern/mostly-fluid.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/4_1_media_queries/demo.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/3_3_1_mobile_faehigkeiten/geolocation/demo.js",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/3_3_1_mobile_faehigkeiten/geolocation/demo.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/js",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/styles.css",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/3_3_1_mobile_faehigkeiten/geolocation/geolocation.html",
+		"/T/studium/SS_2013/Bachelorthesis/usb-stick/3_3_1_mobile_faehigkeiten/geolocation.html",
+		"/T/studium/SS_2013/Bachelorthesis/begleit_cd/meeting_the_middle/text.html",
+		"/C/Users/Florian Speckmaier/Desktop/text.html",
+		"/C/programming/webprojects/hdmapp/source/less/basics/variables.less",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/FeedbackView.js",
+		"/C/programming/webprojects/hdmapp/source/templates/feedback.tpl",
+		"/C/programming/webprojects/hdmapp/source/less/pages/meta.less",
+		"/C/programming/webprojects/hdmapp/source/templates/horst.tpl",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/CampusView.js",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/CampusDetailView.js",
+		"/C/programming/webprojects/hdmapp/source/js/router.js",
+		"/C/programming/webprojects/hdmapp/source/less/keyvisuals.less",
+		"/C/programming/webprojects/hdmapp/source/json/menu_old.json",
+		"/C/programming/webprojects/hdmapp/source/json/menu_new.json",
+		"/C/programming/webprojects/hdmapp/source/json/menu.json",
+		"/C/programming/webprojects/hdmapp/source/json/menu_new",
+		"/C/programming/webprojects/hdmapp/source/less/scaffolding.less",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/HorstView.js",
+		"/C/programming/webprojects/hdmapp/source/less/pages/horst.less",
+		"/C/programming/webprojects/hdmapp/source/less/pages/feedback.less",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/PageView.js",
+		"/C/programming/webprojects/hdmapp/source/templates/partials/header.tpl",
+		"/C/programming/webprojects/hdmapp/source/templates/imprint.tpl",
+		"/C/programming/webprojects/hdmapp/source/js/models/LectureModel.js",
+		"/C/programming/webprojects/hdmapp/source/templates/subtemplates/schedule/dayview/lecture-dayview.tpl",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/ScheduleView.js",
+		"/C/programming/webprojects/hdmapp/build/Gruntfile.js",
+		"/C/programming/webprojects/hdmapp/build/package.json",
+		"/C/programming/webprojects/hdmapp/source/js/views/subviews/todo/TaskView.js",
+		"/C/programming/webprojects/hdmapp/source/templates/subtemplates/schedule/dayview/schedule-dayview.tpl",
+		"/C/programming/webprojects/hdmapp/source/js/views/subviews/schedule/dayview/TimeslotDayView.js",
+		"/C/programming/webprojects/hdmapp/source/templates/subtemplates/schedule/dayview/timeslot-dayview.tpl",
+		"/C/programming/webprojects/hdmapp/source/js/collections/RoomCollection.js",
+		"/C/programming/webprojects/hdmapp/source/js/helper/dataHandler.js",
+		"/C/programming/webprojects/hdmapp/source/js/models/RoomModel.js",
+		"/C/programming/webprojects/hdmapp/source/js/main.js",
+		"/C/programming/webprojects/hdmapp/source/js/app.js",
+		"/C/programming/webprojects/hdmapp/source/js/models/MarkerModel.js",
+		"/C/programming/webprojects/hdmapp/source/js/collections/MarkerCollection.js",
+		"/C/programming/webprojects/hdmapp/source/js/views/pages/HorstView - Kopie.js",
+		"/C/programming/webprojects/hdmapp/source/templates/subtemplates/campus/campus-detailview.tpl",
+		"/C/programming/webprojects/hdmapp/source/templates/campus.tpl",
+		"/C/programming/webprojects/hdmapp/source/less/style.less",
+		"/C/programming/webprojects/hdmapp/source/less/pages/campus.less",
+		"/C/programming/webprojects/hdmapp/fuck.js",
+		"/C/programming/webprojects/hdmapp/build/dummy.js",
+		"/C/programming/webprojects/hdmapp/hdmapp.sublime-project",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/jqm/jquery.mobile.structure-1.3.0.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/hdmapp.sublime-project",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/docs/classes/CampusView.html",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/main.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/libs/backbone/backbone.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/libs/utils/fastclick.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/jqm/app-custom-theme_back.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/router.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/views/pages/PageView.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/views/pages/CampusView.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/views/pages/CampusDetailView.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/helper/dataHandler.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/views/pages/HorstView.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/build/Gruntfile.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/build/package.json",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/jqm/app-custom-theme.less.back",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/jqm/jquery.mobile.structure-1.3.1.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/js/libs/jquery.mobile/jquery.mobile-1.3.1.js",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/templates/campus.tpl",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/style.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/scaffolding.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/keyvisuals.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/basics/jqm-resets.less",
+		"/T/studium/WS_2012_2013/HdMWebApp/code/source/less/pages/meta.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"C:\\Users\\Florian Speckmaier\\Documents\\studium\\WS_2012_2013\\HdMWebApp\\code\\",
+			"C:\\Users\\Florian Speckmaier\\Documents\\studium\\WS_2012_2013\\Studioproduktion\\code\\",
+			"C:\\Users\\Florian Speckmaier\\Documents\\studium\\WS_2012_2013\\Studioproduktion\\code\\*.tpl",
+			"C:\\Users\\Florian Speckmaier\\Documents\\studium\\WS_2012_2013\\Studioproduktion\\code",
+			"C:\\Users\\Florian Speckmaier\\Documents\\studium\\WS_2012_2013\\Studioproduktion\\code\\source, *.less, *.js, *.json, *.tpl",
+			"C:\\Users\\Florian Speckmaier\\Documents\\studium\\WS_2012_2013\\Studioproduktion\\code"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"this.$active",
+			"slide",
+			"item",
+			"addClass",
+			"data-api",
+			"indi",
+			"900x500",
+			"link",
+			".nav",
+			".container-0 {\n	\n}",
+			".span",
+			"span",
+			"„",
+			"\"];\n",
+			">\n",
+			"	<a href=\"\" class=\"uwe\">\n				<span>\n				\n				</span>\n			</a>",
+			"<a href=\"\" class=\"uwe\">\n				<span>\n				\n				</span>\n			</a>",
+			"href",
+			"			<",
+			"<a href=\"\" class=\"uwe\">\n				<span>\n				\n				</span>\n			</a>",
+			"killtime",
+			"killtiem",
+			"meal",
+			"toggleErrorMsg",
+			"showLevel",
+			"checkMarker",
+			"changeFloor",
+			"setCenter",
+			"hasAll",
+			"changeFloor",
+			"findRoom",
+			"console",
+			"jquery.mobile",
+			"checkHash",
+			"addMap",
+			"initMap",
+			"generate",
+			"loadRoom",
+			"checkQuery",
+			"find",
+			"searchRoom",
+			"initMap",
+			"this.tog",
+			"this.toggle",
+			"toggleMarkerSwi",
+			"toggleMarker",
+			"checkMa",
+			"checkMar",
+			".show-marker",
+			"initMap",
+			"loadRoom",
+			"addMap",
+			"initMap",
+			"changeFloor",
+			"addMap",
+			"console.log",
+			"searchRoom",
+			"hasAllMarkersVi",
+			"resultMarkerVisible",
+			"allMarkersVisible",
+			"tileSize",
+			"currentZoom",
+			"markerIcon",
+			"fillRoomCollection",
+			"loadMarker",
+			"fillCollection",
+			"setFloor",
+			"initMap",
+			"setFloor",
+			"setFloornav",
+			"gethash",
+			"query",
+			"insertMap",
+			"initMa",
+			"insertMap",
+			"width",
+			"insertMap",
+			"this.horst",
+			"initMap",
+			"thishors",
+			"initMap",
+			"getHash",
+			"searchRoom",
+			"initMap",
+			"setFloor",
+			"initMap",
+			"firstLoad",
+			"resizeMap",
+			"initMap",
+			"resizeMap",
+			"initMap",
+			"resizeMap",
+			"firstLoad",
+			"resize",
+			"resizeMap",
+			"pageshow",
+			"currentFloor",
+			"this.floorNumber",
+			"searchRoom",
+			"this.floorNumber",
+			"searchRoom",
+			"initMap",
+			"query",
+			"currentFloor",
+			"getTileUrl",
+			"searchRoom",
+			"currentFloor",
+			"switch",
+			"findMarker",
+			"roomquery",
+			"searchRo",
+			"getTIle",
+			"floorPath",
+			"switch",
+			"floorPath",
+			"searchRoom",
+			"setFloor",
+			"eg",
+			"floorNumber",
+			"getData",
+			"render",
+			"getTileUrl",
+			"currentFloor",
+			"tiles",
+			"loading",
+			"ie",
+			"output",
+			"setFloor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"500x500",
+			"ul",
+			".col-",
+			"col-",
+			"\"",
+			"name",
+			"toggleMsg",
+			"getQuery",
+			"hasResultMarkerVisible",
+			"hasAllMarkersVisible",
+			"generateRooms",
+			"loadRooms",
+			"\"",
+			"<br/>",
+			"imprint",
+			"",
+			"ü",
+			"<a href=\"#!/campusDetail\"",
+			"hdmAppSchedule",
+			"stepPlan",
+			"deleteUserData",
+			"getUserData",
+			"setUserData",
+			"getUserData",
+			"refreshAllowed",
+			"dataHandler",
+			"menu",
+			"billie-holiday",
+			"showScheduleChanges",
+			"href=\"#\"",
+			"topbar",
+			"this.holidayHandler.currentDate",
+			"",
+			"offset",
+			"easterDay",
+			"dayDiff",
+			"year",
+			"\"events\":",
+			"addTaskView",
+			"categories",
+			"title",
+			"crypt",
+			"userKey",
+			".hl-userdata",
+			"storageHandler",
+			"noLogin",
+			"data-customicon=\"&#xe006;\"",
+			"data-customicon=\"&#xe004;\"",
+			"data-customicon=\"&#xe006;\"",
+			"data-customicon=\"&#xe003;\"",
+			"icon-events",
+			"icon-todo",
+			"icon-campus",
+			"icon-schedule",
+			"icon-horst",
+			".icon-horst",
+			".icon-campus",
+			".icon-events",
+			".icon-todo",
+			".icon-schedule",
+			"icon-mensa",
+			"blackMagic",
+			"",
+			"EventsView",
+			"CampusView",
+			"NavigationView",
+			"HeaderView",
+			"PageView",
+			"\"",
+			"",
+			"@globalBorderRadius;",
+			"@globalBorderRadius",
+			"<a href=\"index.html\" data-role=\"button\" data-theme=\"a\" data-mini=\"true\" data-shadow=\"false\" data-inline=\"true\"><span class=\"icon-home\"></span></a>",
+			"top-bar",
+			".map-container",
+			"baseFontWeight",
+			"@fontRegular",
+			"font-weight: @globalFontWeight;",
+			"{@fontPath}",
+			"@linkColorA",
+			"from(@gradStopB), to(@gradStartB)",
+			"background: @solidColorB",
+			"border: 1px solid @borderColor",
+			"(@gradStopB,@gradStartB);",
+			"from(@gradStopB), to(@gradStopA))",
+			"(@gradStartB, @gradStopB)",
+			"to(@gradStopB)",
+			"@gradStopB",
+			"@gradStopA",
+			"@gradStartA",
+			"@linkColor",
+			"color: @textColorGlobal",
+			"font-family: @fontFamily /*{global-font-family}*/;",
+			"color: @linkColor /*{a-bar-link-color}*/;",
+			"text-shadow: 0 1px 1px @textShadow;",
+			"border: 1px solid @borderColor",
+			"@white",
+			"@gradStop",
+			"@gradStart",
+			"font-family:@fontSemibold;",
+			"font-family:@fontRegular;",
+			"from(@gradStart), to(@gradStop));",
+			"(@gradStart, @gradStop);",
+			"background: @solid;",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/index.html",
+					"settings":
+					{
+						"buffer_size": 3215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1686,
+								1686
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "27701f7f",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/assets/js/carousel.js",
+					"settings":
+					{
+						"buffer_size": 5650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1957,
+								1957
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "c3ccf8d7",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 499.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/assets/less/carousel.less",
+					"settings":
+					{
+						"buffer_size": 5137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "7508c9d6",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 151.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"save",
+				"source/assets/js/save"
+			],
+			[
+				"carousel.les",
+				"source/assets/less/carousel.less"
+			],
+			[
+				"carouse",
+				"source/assets/js/carousel.js"
+			],
+			[
+				"carousel",
+				"source/assets/js/carousel.js"
+			],
+			[
+				"carousel.less",
+				"source/assets/less/carousel.less"
+			],
+			[
+				"boo",
+				"source/assets/less/bootstrap.less"
+			],
+			[
+				"data",
+				"source/js/helper/dataHandler.js"
+			],
+			[
+				"horst",
+				"source/js/views/pages/HorstView.js"
+			],
+			[
+				"vari",
+				"source/less/basics/variables.less"
+			],
+			[
+				"menu",
+				"source/less/pages/menu.less"
+			],
+			[
+				"ke",
+				"source/less/keyvisuals.less"
+			],
+			[
+				"router",
+				"source/js/router.js"
+			],
+			[
+				"camu",
+				"source/js/views/pages/CampusDetailView.js"
+			],
+			[
+				"campu",
+				"source/js/views/pages/CampusView.js"
+			],
+			[
+				"sca",
+				"source/less/scaffolding.less"
+			],
+			[
+				"meta",
+				"source/less/pages/meta.less"
+			],
+			[
+				"fe",
+				"source/templates/feedback.tpl"
+			],
+			[
+				"fee",
+				"source/templates/feedback.tpl"
+			],
+			[
+				"lecture",
+				"source/templates/subtemplates/schedule/dayview/lecture-dayview.tpl"
+			],
+			[
+				"lecturemodel",
+				"source/js/models/LectureModel.js"
+			],
+			[
+				"key",
+				"source/less/keyvisuals.less"
+			],
+			[
+				"grunt",
+				"build/Gruntfile.js"
+			],
+			[
+				"imp",
+				"source/templates/imprint.tpl"
+			],
+			[
+				"taskview",
+				"source/js/views/subviews/todo/TaskView.js"
+			],
+			[
+				"page",
+				"source/js/views/pages/PageView.js"
+			],
+			[
+				"lect",
+				"source/templates/subtemplates/schedule/dayview/lecture-dayview.tpl"
+			],
+			[
+				"schedule",
+				"source/templates/subtemplates/schedule/dayview/schedule-dayview.tpl"
+			],
+			[
+				"campusvie",
+				"source/js/views/pages/CampusView.js"
+			],
+			[
+				"schedu",
+				"source/js/views/pages/ScheduleView.js"
+			],
+			[
+				"timeslot",
+				"source/templates/subtemplates/schedule/dayview/timeslot-dayview.tpl"
+			],
+			[
+				"timeslo",
+				"source/js/views/subviews/schedule/dayview/TimeslotDayView.js"
+			],
+			[
+				"main",
+				"source/js/main.js"
+			],
+			[
+				"lectureda",
+				"source/templates/subtemplates/schedule/dayview/lecture-dayview.tpl"
+			],
+			[
+				"room",
+				"source/js/models/RoomModel.js"
+			],
+			[
+				"rou",
+				"source/js/router.js"
+			],
+			[
+				"horst.",
+				"source/less/pages/horst.less"
+			],
+			[
+				"hort",
+				"source/templates/horst.tpl"
+			],
+			[
+				"hor",
+				"source/js/views/pages/HorstView - Kopie.js"
+			],
+			[
+				"grun",
+				"build/Gruntfile.js"
+			],
+			[
+				"campus.less",
+				"source/less/pages/campus.less"
+			],
+			[
+				"campus",
+				"source/js/views/pages/CampusDetailView.js"
+			],
+			[
+				"style",
+				"source/less/style.less"
+			],
+			[
+				"pagevi",
+				"source/js/views/pages/PageView.js"
+			],
+			[
+				"campus.le",
+				"source/less/pages/campus.less"
+			],
+			[
+				"r",
+				"source/js/router.js"
+			],
+			[
+				"jquer",
+				"source/less/jqm/jquery.mobile.structure-1.3.0.less"
+			],
+			[
+				"structure",
+				"source/less/jqm/jquery.mobile.structure-1.3.1.less"
+			],
+			[
+				"eventv",
+				"source/js/views/pages/EventsView.js"
+			],
+			[
+				"todo",
+				"source/js/views/pages/TodoView.js"
+			],
+			[
+				"campuslis",
+				"source/js/views/pages/CampusDetailView.js"
+			],
+			[
+				"gru",
+				"build/Gruntfile.js"
+			],
+			[
+				"hors",
+				"source/js/views/pages/HorstView.js"
+			],
+			[
+				"schedulew",
+				"source/js/views/subviews/schedule/weekview/ScheduleWeekView.js"
+			],
+			[
+				"home",
+				"source/templates/home.tpl"
+			],
+			[
+				"homev",
+				"source/js/views/pages/HomeView.js"
+			],
+			[
+				"nav",
+				"source/templates/partials/navigation-footer.tpl"
+			],
+			[
+				"foot",
+				"source/templates/partials/default-footer.tpl"
+			],
+			[
+				"men",
+				"source/templates/menu.tpl"
+			],
+			[
+				"dat",
+				"source/js/helper/dataHandler.js"
+			],
+			[
+				"horstvi",
+				"source/js/views/pages/HorstView.js"
+			],
+			[
+				"campusde",
+				"source/js/views/pages/CampusDetailView.js"
+			],
+			[
+				"mixin",
+				"source/less/mixins.less"
+			],
+			[
+				"navi",
+				"source/templates/partials/navigation.tpl"
+			],
+			[
+				"type",
+				"source/less/type.less"
+			],
+			[
+				"menup",
+				"source/js/views/subviews/menu/MenuPlanView.js"
+			],
+			[
+				"menuviw",
+				"source/js/views/pages/MenuView.js"
+			],
+			[
+				"holi",
+				"source/js/helper/holidayHandler.js"
+			],
+			[
+				"scheduleda",
+				"source/js/views/subviews/schedule/dayview/ScheduleDayView.js"
+			],
+			[
+				"homevie",
+				"source/js/views/pages/HomeView.js"
+			],
+			[
+				"d",
+				"source/js/helper/dataHandler.js"
+			],
+			[
+				"schedulewe",
+				"source/js/views/subviews/schedule/weekview/ScheduleWeekView.js"
+			],
+			[
+				"lectureview",
+				"source/js/views/subviews/schedule/dayview/LectureDayView.js"
+			],
+			[
+				"timeslotwe",
+				"source/js/views/subviews/schedule/weekview/TimeslotWeekView.js"
+			],
+			[
+				"time",
+				"source/js/views/subviews/schedule/dayview/TimeslotDayView.js"
+			],
+			[
+				"holiday",
+				"source/js/helper/holidayHandler.js"
+			],
+			[
+				"lecture-we",
+				"source/templates/subtemplates/schedule/weekview/lecture-weekview.tpl"
+			],
+			[
+				"rout",
+				"source/js/router.js"
+			],
+			[
+				"schedule-da",
+				"source/templates/subtemplates/schedule/dayview/schedule-dayview.tpl"
+			],
+			[
+				"timeslotd",
+				"source/js/views/subviews/schedule/dayview/TimeslotDayView.js"
+			],
+			[
+				"lectureday",
+				"source/js/views/subviews/schedule/dayview/LectureDayView.js"
+			],
+			[
+				"scheduled",
+				"source/js/views/subviews/schedule/dayview/ScheduleDayView.js"
+			],
+			[
+				"timeslot.t",
+				"source/templates/subtemplates/schedule/timeslot.tpl"
+			],
+			[
+				"lec",
+				"source/js/views/subviews/schedule/LectureView.js"
+			],
+			[
+				"dayview",
+				"source/js/views/subviews/schedule/DayView.js"
+			],
+			[
+				"schedul",
+				"source/templates/subtemplates/schedule/schedule-weekview.tpl"
+			],
+			[
+				"app",
+				"source/js/app.js"
+			],
+			[
+				"under",
+				"source/js/libs/underscore/underscore.js"
+			],
+			[
+				"back",
+				"source/js/libs/backbone/backbone.js"
+			],
+			[
+				"fa",
+				"source/js/libs/utils/fastclick.js"
+			],
+			[
+				"jquery",
+				"source/js/libs/jquery.mobile/jquery.mobile-1.3.0.js"
+			],
+			[
+				"inde",
+				"source/index.html"
+			],
+			[
+				"lecturevi",
+				"source/js/views/subviews/schedule/LectureView.js"
+			],
+			[
+				"st",
+				"source/less/style.less"
+			],
+			[
+				"lunch",
+				"source/templates/subtemplates/schedule/lunch.tpl"
+			],
+			[
+				"task",
+				"source/templates/task.tpl"
+			],
+			[
+				"varia",
+				"source/less/variables.less"
+			],
+			[
+				"s",
+				"source/less/style.less"
+			],
+			[
+				"bacup",
+				"source/templates/backup_dayview"
+			],
+			[
+				"scheduleview",
+				"source/js/views/pages/ScheduleView.js"
+			],
+			[
+				"dav",
+				"source/js/views/subviews/schedule/DayView.js"
+			],
+			[
+				"ro",
+				"source/js/router.js"
+			],
+			[
+				"event",
+				"source/js/views/EventsView.js"
+			],
+			[
+				"taskvie",
+				"source/js/views/TaskView.js"
+			],
+			[
+				"dayvie",
+				"source/js/views/ScheduleDayView.js"
+			],
+			[
+				"eventsvie",
+				"source/js/views/EventsView.js"
+			],
+			[
+				"pagev",
+				"source/js/views/PageView.js"
+			],
+			[
+				"imprint",
+				"source/templates/imprint.tpl"
+			],
+			[
+				"footer",
+				"source/templates/navigation-footer.tpl"
+			],
+			[
+				"dataha",
+				"source/js/helper/dataHandler.js"
+			],
+			[
+				"navigation",
+				"source/templates/navigation-footer.tpl"
+			],
+			[
+				"inf",
+				"source/templates/information.tpl"
+			],
+			[
+				"sett",
+				"source/templates/settings.tpl"
+			],
+			[
+				"header",
+				"source/templates/header.tpl"
+			],
+			[
+				"set",
+				"source/templates/settings.tpl"
+			],
+			[
+				"pop",
+				"source/templates/popup.tpl"
+			],
+			[
+				"scheu",
+				"source/js/views/ScheduleDayView.js"
+			],
+			[
+				"settin",
+				"source/templates/settings.tpl"
+			],
+			[
+				"styl",
+				"source/less/style.less"
+			],
+			[
+				"sty",
+				"source/less/style.less"
+			],
+			[
+				"homeview",
+				"source/js/views/HomeView.js"
+			],
+			[
+				"swti",
+				"source/js/views/SwitchFooterView.js"
+			],
+			[
+				"defa",
+				"source/js/views/DefaultFooterView.js"
+			],
+			[
+				"swit",
+				"source/templates/switch-footer.tpl"
+			],
+			[
+				"home.tpl",
+				"source/templates/home.tpl"
+			],
+			[
+				"me",
+				"source/js/views/MenuView.js"
+			],
+			[
+				"navig",
+				"source/js/views/NavigationView.js"
+			],
+			[
+				"footerv",
+				"source/js/views/DefaultFooterView.js"
+			],
+			[
+				"icons",
+				"source/less/icons.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Florian Speckmaier/Documents/studium/SS_2013/RoTG/code/rotg.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}
