@@ -33,12 +33,9 @@
     this.$active     =
     this.$items      = null;
 
-    /*this.options.pause == 'hover' && this.$element
+    this.options.pause == 'hover' && this.$element
       .on('mouseenter', $.proxy(this.pause, this))
-      .on('mouseleave', $.proxy(this.cycle, this)) */
-
-    this.getActiveIndex();
-
+      .on('mouseleave', $.proxy(this.cycle, this));
   };
 
   Carousel.DEFAULTS = {
@@ -49,12 +46,22 @@
 
 
   Carousel.prototype.cycle =  function (e) {
-    console.log('shall cycle');
+
+    e || (this.paused = false) // versteh ich auch noch nicht
+
+    this.interval && clearInterval(this.interval) // ?
+
+    this.options.interval
+      && !this.paused
+      && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
+
+    return this;
+
   };
 
   Carousel.prototype.getActiveIndex = function () {
     this.$active = this.$element.find('.item.active');
-    this.$items  = this.$active.parent().children().removeClass('no-transition');
+    this.$items  = this.$active.parent().children();
 
 
     return this.$items.index(this.$active);
@@ -62,39 +69,54 @@
 
   Carousel.prototype.to = function (pos) {
 
-    var activeIndex = this.getActiveIndex();
+    var activeIndex = this.getActiveIndex(),
+        that = this;
 
-    // wenn quatsch aufgerufen wird
-    if (pos > (this.$items.length - 1) || pos < 0) return;
-
-    // wenn das gleiche item...
-    if( activeIndex === parseInt(pos,0) ) {
-      console.log('bin der gleiche');
+    if (pos > (this.$items.length - 1) || pos < 0) {
       return;
     }
 
-    // return ums chainable zu halten,
-    // wenn pos größer als der aktive index, dann nächste, also das item rechts davon, ansonsten das item links davon
-    return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]));
+    if (this.sliding) {
+      return this.$element.one('slid', function () { that.to(pos); });
+    }
 
+    if( activeIndex === parseInt(pos,0) ) {
+      return this.pause().cycle();
+    }
+
+    return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]));
 
   };
 
   Carousel.prototype.pause = function (e) {
-    console.log('shall pause');
+
+    e || (this.paused = true);
+
+    // hier noch animaton end abfragen, transition end tut zwar auch, aber zur sicherheit!
+    if (this.$element.find('.next, .prev').length && $.support.transition.end) {
+      this.$element.trigger($.support.transition.end);
+      this.cycle(true);
+    }
+
+    this.interval = clearInterval(this.interval);
+
+    return this;
+
   };
 
   Carousel.prototype.next = function () {
-    console.log('next');
+    if (this.sliding) return;
+    return this.slide('next');
   };
 
   Carousel.prototype.prev = function () {
-     console.log('prev');
+    if (this.sliding) return;
+    return this.slide('prev');
   };
 
   Carousel.prototype.slide = function (type, next) {
 
-    var $active        = this.$element.find('.item active'),
+    var $active        = this.$element.find('.item.active'),
         $next          = next || $active[type](),
         isCycling      = this.interval,
         animateActive  = type == 'next' ? 'center-to-left'  : 'center-to-right',
@@ -102,6 +124,7 @@
         direction      = type == 'next' ? 'left'            :  'right',
         fallback       = type == 'next' ?  'first'          : 'last',
         that           = this;
+
 
     if (!$next.length) {
       if (!this.options.wrap) return;
@@ -111,8 +134,6 @@
     this.sliding = true;
 
     isCycling && this.pause(); // versteh ich noch nicht?
-
-    //console.log(isCycling && this.pause());
 
     var e = $.Event('slide.bs.carousel', { relatedTarget: $next[0], direction: direction });
 
@@ -126,17 +147,19 @@
       });
     }
 
-    // ggf $.support mit modernizr ersetzen
+    // ggf $.support mit modernizr ersetzen, hier:
     if ($.support.transition && this.$element.hasClass('slide')) {
       this.$element.trigger(e);
       if (e.isDefaultPrevented()) return;
 
       $next.addClass(type);
-      this.$active.addClass(animateActive);
+      $active.addClass(animateActive);
       $next.addClass(animateNext);
 
-      this.$active.one('webkitAnimationEnd', function(){
-        that.$active.attr('class','item');
+      // hier ggf Werte aus modernizr nehmen
+      $active.one('animationend webkitAnimationEnd oanimationend MSAnimationEnd', function() {
+        console.log('end!');
+        $active.attr('class','item');
         $next.attr('class', 'item').addClass('active');
         that.sliding = false;
         that.$element.trigger('slid');
@@ -155,8 +178,6 @@
     isCycling && this.cycle(); // versteh ich auch noch nicht
 
     return this;
-
-
 
 
   };

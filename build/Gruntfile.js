@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     //Überwacht alle .less dateien, und führt bei Änderung den Less Task aus
     watch: {
       files: ["../source/assets/less/*.less"],
-      tasks: ["less:development"]
+      tasks: ["less:development", "autoprefixer"]
     },
 
     //kompiliert alle .less dateien aus angegebenem Verzeichnis ins .css dateien
@@ -22,8 +22,18 @@ module.exports = function(grunt) {
         files: {
           "../source/assets/css/style.css" : "../source/assets/less/style.less"
         }
-      },
+      }
 
+    },
+
+    autoprefixer: {
+
+      target : {
+        src: "../source/assets/css/style.css"
+      },
+      options: {
+        browsers: ["last 2 versions"]
+      }
 
     }
 
@@ -33,6 +43,7 @@ module.exports = function(grunt) {
 
 grunt.loadNpmTasks("grunt-contrib-watch");
 grunt.loadNpmTasks("grunt-contrib-less");
+grunt.loadNpmTasks("grunt-autoprefixer");
 
 
 
