@@ -199,6 +199,7 @@
     var slideIndex = $this.attr('data-slide-to')
     if (slideIndex) options.interval = false
 
+    console.log($this);
 
     if (slideIndex = $this.attr('data-slide-to')) {
       $target.data('bs.carousel').to(slideIndex)

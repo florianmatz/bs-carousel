@@ -73,6 +73,7 @@
         that = this;
 
     if (pos > (this.$items.length - 1) || pos < 0) {
+      console.log('schrott');
       return;
     }
 
@@ -116,6 +117,8 @@
 
   Carousel.prototype.slide = function (type, next) {
 
+
+
     var $active        = this.$element.find('.item.active'),
         $next          = next || $active[type](),
         isCycling      = this.interval,
@@ -158,7 +161,6 @@
 
       // hier ggf Werte aus modernizr nehmen
       $active.one('animationend webkitAnimationEnd oanimationend MSAnimationEnd', function() {
-        console.log('end!');
         $active.attr('class','item');
         $next.attr('class', 'item').addClass('active');
         that.sliding = false;
@@ -223,15 +225,15 @@
     var $this   = $(this), href;
     var $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')); //strip for ie7
     var options = $.extend({}, $target.data(), $this.data());
-    var slideIndex = $this.attr('data-slide-to');
-    if (slideIndex) {
-      options.interval = false;
-    }
+    var slideIndex = $this.attr('data-slide-to') || $this.attr('data-slide');
 
-
-    if (slideIndex == $this.attr('data-slide-to')) {
+    // mein zeugs
+    if(slideIndex === 'next' || slideIndex === 'prev') {
+      $target.data('bs.carousel')[slideIndex]();
+    }else {
       $target.data('bs.carousel').to(slideIndex);
     }
+
 
     e.preventDefault();
   });
