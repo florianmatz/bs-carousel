@@ -6581,9 +6581,6 @@ button.close {
 
 .carousel {
   position: relative;
-  overflow: hidden;
-  width: 500px;
-  height: 500px;
 }
 
 .carousel-inner {
@@ -6597,7 +6594,16 @@ button.close {
   display: block;
   position: absolute;
   top: 100%;
+  height: 100%;
   width: 100%;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1;
 }
 
 .carousel-inner > .item:nth-child(1) {
