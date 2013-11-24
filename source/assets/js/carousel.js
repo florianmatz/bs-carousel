@@ -24,14 +24,14 @@
   // =========================
 
   var Carousel = function (element, options) {
-    this.$element    = $(element)
-    this.$indicators = this.$element.find('.carousel-indicators')
-    this.options     = options
+    this.$element    = $(element);
+    this.$indicators = this.$element.find('.carousel-indicators');
+    this.options     = options;
     this.paused      =
     this.sliding     =
     this.interval    =
     this.$active     =
-    this.$items      = null
+    this.$items      = null;
 
     /*this.options.pause == 'hover' && this.$element
       .on('mouseenter', $.proxy(this.pause, this))
@@ -39,58 +39,58 @@
 
     this.getActiveIndex();
 
-  }
+  };
 
   Carousel.DEFAULTS = {
     interval: 5000,
     pause: 'hover',
     wrap: true,
-  }
+  };
 
 
   Carousel.prototype.cycle =  function (e) {
     console.log('shall cycle');
-  }
+  };
 
   Carousel.prototype.getActiveIndex = function () {
-    this.$active = this.$element.find('.item.active')
+    this.$active = this.$element.find('.item.active');
     this.$items  = this.$active.parent().children().removeClass('no-transition');
 
 
-    return this.$items.index(this.$active)
-  }
+    return this.$items.index(this.$active);
+  };
 
   Carousel.prototype.to = function (pos) {
 
-    var activeIndex = this.getActiveIndex()
+    var activeIndex = this.getActiveIndex();
 
     // wenn quatsch aufgerufen wird
     if (pos > (this.$items.length - 1) || pos < 0) return;
 
     // wenn das gleiche item...
-    if( activeIndex === parseInt(pos) ) {
+    if( activeIndex === parseInt(pos,0) ) {
       console.log('bin der gleiche');
       return;
     }
 
     // return ums chainable zu halten,
     // wenn pos größer als der aktive index, dann nächste, also das item rechts davon, ansonsten das item links davon
-    return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]))
+    return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]));
 
 
-  }
+  };
 
   Carousel.prototype.pause = function (e) {
     console.log('shall pause');
-  }
+  };
 
   Carousel.prototype.next = function () {
     console.log('next');
-  }
+  };
 
   Carousel.prototype.prev = function () {
      console.log('prev');
-  }
+  };
 
   Carousel.prototype.slide = function (type, next) {
 
@@ -104,8 +104,8 @@
         that           = this;
 
     if (!$next.length) {
-      if (!this.options.wrap) return
-      $next = this.$element.find('.item')[fallback]()
+      if (!this.options.wrap) return;
+      $next = this.$element.find('.item')[fallback]();
     }
 
     this.sliding = true;
@@ -114,26 +114,26 @@
 
     //console.log(isCycling && this.pause());
 
-    var e = $.Event('slide.bs.carousel', { relatedTarget: $next[0], direction: direction })
+    var e = $.Event('slide.bs.carousel', { relatedTarget: $next[0], direction: direction });
 
     if ($next.hasClass('active')) return;
 
     if (this.$indicators.length) {
-      this.$indicators.find('.active').removeClass('active')
+      this.$indicators.find('.active').removeClass('active');
       this.$element.one('slid', function () {
         var $nextIndicator = $(that.$indicators.children()[that.getActiveIndex()]);
-        $nextIndicator && $nextIndicator.addClass('active');
-      })
+        $nextIndicator && $nextIndicator.addClass('active'); // versteh ich auch noch nicht
+      });
     }
 
     // ggf $.support mit modernizr ersetzen
     if ($.support.transition && this.$element.hasClass('slide')) {
-      this.$element.trigger(e)
-      if (e.isDefaultPrevented()) return
+      this.$element.trigger(e);
+      if (e.isDefaultPrevented()) return;
 
       $next.addClass(type);
       this.$active.addClass(animateActive);
-      $next.addClass(animateNext)
+      $next.addClass(animateNext);
 
       this.$active.one('webkitAnimationEnd', function(){
         that.$active.attr('class','item');
@@ -144,54 +144,54 @@
 
 
     } else {
-      this.$element.trigger(e)
-      if (e.isDefaultPrevented()) return
-      $active.removeClass('active')
-      $next.addClass('active')
-      this.sliding = false
-      this.$element.trigger('slid')
+      this.$element.trigger(e);
+      if (e.isDefaultPrevented()) return;
+      $active.removeClass('active');
+      $next.addClass('active');
+      this.sliding = false;
+      this.$element.trigger('slid');
     }
 
-    isCycling && this.cycle()
+    isCycling && this.cycle(); // versteh ich auch noch nicht
 
-    return this
-
-
+    return this;
 
 
-  }
+
+
+  };
 
 
 
   // CAROUSEL PLUGIN DEFINITION
   // ==========================
 
-  var old = $.fn.carousel
+  var old = $.fn.carousel;
 
   $.fn.carousel = function (option) {
     return this.each(function () {
-      var $this   = $(this)
-      var data    = $this.data('bs.carousel')
-      var options = $.extend({}, Carousel.DEFAULTS, $this.data(), typeof option == 'object' && option)
-      var action  = typeof option == 'string' ? option : options.slide
+      var $this   = $(this);
+      var data    = $this.data('bs.carousel');
+      var options = $.extend({}, Carousel.DEFAULTS, $this.data(), typeof option == 'object' && option);
+      var action  = typeof option == 'string' ? option : options.slide;
 
-      if (!data) $this.data('bs.carousel', (data = new Carousel(this, options)))
-      if (typeof option == 'number') data.to(option)
-      else if (action) data[action]()
-      else if (options.interval) data.pause().cycle()
-    })
-  }
+      if (!data) $this.data('bs.carousel', (data = new Carousel(this, options)));
+      if (typeof option == 'number') data.to(option);
+      else if (action) data[action]();
+      else if (options.interval) data.pause().cycle();
+    });
+  };
 
-  $.fn.carousel.Constructor = Carousel
+  $.fn.carousel.Constructor = Carousel;
 
 
   // CAROUSEL NO CONFLICT
   // ====================
 
   $.fn.carousel.noConflict = function () {
-    $.fn.carousel = old
-    return this
-  }
+    $.fn.carousel = old;
+    return this;
+  };
 
 
   // CAROUSEL DATA-API
@@ -199,25 +199,27 @@
 
   $(document).on('click.bs.carousel.data-api', '[data-slide], [data-slide-to]', function (e) {
 
-    var $this   = $(this), href
-    var $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
-    var options = $.extend({}, $target.data(), $this.data())
-    var slideIndex = $this.attr('data-slide-to')
-    if (slideIndex) options.interval = false
-
-
-    if (slideIndex = $this.attr('data-slide-to')) {
-      $target.data('bs.carousel').to(slideIndex)
+    var $this   = $(this), href;
+    var $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')); //strip for ie7
+    var options = $.extend({}, $target.data(), $this.data());
+    var slideIndex = $this.attr('data-slide-to');
+    if (slideIndex) {
+      options.interval = false;
     }
 
-    e.preventDefault()
-  })
+
+    if (slideIndex == $this.attr('data-slide-to')) {
+      $target.data('bs.carousel').to(slideIndex);
+    }
+
+    e.preventDefault();
+  });
 
   $(window).on('load', function () {
     $('[data-ride="carousel"]').each(function () {
-      var $carousel = $(this)
-      $carousel.carousel($carousel.data())
-    })
-  })
+      var $carousel = $(this);
+      $carousel.carousel($carousel.data());
+    });
+  });
 
 }(jQuery);
